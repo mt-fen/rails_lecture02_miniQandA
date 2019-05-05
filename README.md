@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Railsを使用したmini Q&Aサイトの作成。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 実施内容
+* ルーティング設定
+* データベース操作
+* Model, View, Controllerの作成
+* 質問一覧画面、新規質問作成画面、質問の編集・削除画面の作成
+* 回答一覧表示、回答編集・削除画面の作成
+* bootstrapの導入
+* ストロングパラメータ、バリデートの設定
+* エラーメッセージ表示
+* パーシャルを使用した重複コードの共通化
+* Herokuを使用したデプロイ
+* Herokuでデプロイしたアプリの削除
